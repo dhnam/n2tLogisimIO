@@ -16,3 +16,7 @@ Nand2Tetris keyboard and screen component, composited in pure logisim/logisim ev
      - Output component is two `RGB Video` (Logisim-evolution only), with X/Y size set to 256 and color mode set to Grayscale (4bit)
     
    ![usage image](./usage.png)
+
+# Note about graphic card
+Sadly speed cap of `RGB Video` component is one pixel per a clock cycle, so too rapid command for screen manipulation may cause delay and can be discarded.
+I used queue with 13-bit address (8K) to minimize command discard, if program loaded edits screen byte in, like, every 10 instructions, expect delay and eventual dismissed change.
