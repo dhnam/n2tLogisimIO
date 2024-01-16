@@ -1,7 +1,7 @@
 # n2tLogisimIO
 Nand2Tetris keyboard and screen component, composited in pure logisim/logisim evolution
 
-# What is inside
+# What's inside
  - `KeyboardDelayClassic.circ`
    - Keyboard delay circuit for logisim classic.
    - Use [logisimn2t](https://github.com/itoshkov/logisimn2t) for screen.
