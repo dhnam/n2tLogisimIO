@@ -2,10 +2,10 @@
 Nand2Tetris keyboard and screen component, composited in pure logisim/logisim evolution
 
 # What is inside
- - KeyboardDelayClassic.circ
+ - `KeyboardDelayClassic.circ`
    - Keyboard delay circuit for logisim classic.
    - Use [logisimn2t](https://github.com/itoshkov/logisimn2t) for screen.
- - hackPCEvolutionComponent.circ
+ - `hackpcEvolutionComponent.circ`
    - Keyboard delay circuit and 'graphic card' for logisim evolution.
 
   # How to use
